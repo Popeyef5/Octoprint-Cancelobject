@@ -74,7 +74,7 @@ $(function() {
         			entry.activeobj = "false";
         			
         			var objname = document.createElement("label"); objname.className = "entrylabel";
-        			objname.appendChild(document.createTextNode(self.ObjectList[i]["object"]+"testText"));
+        			objname.appendChild(document.createTextNode(self.ObjectList[i]["object"]+" x: "+self.ObjectList[i]["x"]));
         			entry.appendChild(objname);
         			
         			var cancelbutton = document.createElement("BUTTON"); cancelbutton.className = "cancel-btn btn";
