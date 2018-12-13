@@ -191,7 +191,7 @@ class CancelobjectPlugin(octoprint.plugin.StartupPlugin,
                 if entry:
                     return None
                 else:
-                    return dict({"object" : obj, "id" : None, "active" : False, "cancelled" : False, "ignore" : False})
+                    return dict({"object" : obj, "id" : None, "active" : False, "cancelled" : False, "ignore" : False, "x": 150, "y": 150})
             else:
                 return None
 
